@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tripa</string>
+    <string name="Email">Email ID</string>
+    <string name="Password">Password</string>
+    <string name="Signin">Sign In</string>
+    <string name="Signup">Sign Up</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Username">Name</string>
+    <string name="Home">Home</string>
+    <string name="Search">Search</string>
+    <string name="AddTrip">Add Trip</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Profile">Profile</string>
+    <string name="TripName">Trip Name</string>
+    <string name="TripLocation">Trip Location</string>
+    <string name="Share">Share</string>
+    <string name="ShareMode">Share Mode</string>
+    <string name="facebook_app_id">703455230016650</string>
+    <string name="fb_login_protocol_scheme">fb703455230016650</string>
+    <string name="VerifyEmailString">Verify Email</string>
+    <string name="VerifyEmailMessage">Please verify your email address through email verification link sent to you.</string>
+    <string name="Resend">Resend Email</string>
+    <string-array name="ShareType">
+        <item>Public</item>
+        <item>Friends</item>
+        <item>Private</item>
+    </string-array>
+
+    <string-array name="ShareMode">
+        <item>Instant</item>
+        <item>Selection</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notificationsTitle">Notifications</string>
+    <string name="default_notification_channel_id">10992</string>
+</resources>

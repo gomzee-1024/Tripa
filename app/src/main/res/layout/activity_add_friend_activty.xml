@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addtrip.AddFriendActivty">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:background="@drawable/button_bg"
+        android:textAppearance="@style/TextInputStyle"
+        android:hint="Search"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="16dp"
+        android:padding="12dp"
+        android:layout_gravity="end"
+        android:src="@drawable/round_clear_black_24"/>
+
+    <androidx.appcompat.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp">
+    </androidx.appcompat.widget.RecyclerView>
+    <androidx.appcompat.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="128dp">
+
+    </androidx.appcompat.widget.RecyclerView>
+</FrameLayout>

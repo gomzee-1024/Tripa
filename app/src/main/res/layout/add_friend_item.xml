@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="172dp"
+    android:layout_height="172dp"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/avtaar_icon"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="18dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/black_transparent_bg"
+            android:src="@drawable/round_check_white_48"/>
+    </FrameLayout>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextNameStyle"
+        android:text="Gautam Kakadiya"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextInputStyle"
+        android:text="gkakadiy11"/>
+</LinearLayout>

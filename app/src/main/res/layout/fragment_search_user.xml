@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".searchUser.SearchUserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <EditText
+                android:id="@+id/search_user_search_text"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:minLines="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:background="@drawable/button_bg"
+                android:textAppearance="@style/TextInputStyle"
+                android:hint="Search"/>
+            <ImageView
+                android:id="@+id/search_user_clear_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                android:padding="12dp"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                android:src="@drawable/round_clear_black_24"/>
+        </FrameLayout>
+        <ProgressBar
+            android:id="@+id/search_user_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="8dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+        <androidx.appcompat.widget.RecyclerView
+            android:id="@+id/search_user_recycler_view"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.appcompat.widget.RecyclerView>
+
+    </LinearLayout>
+</FrameLayout>

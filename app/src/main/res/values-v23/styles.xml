@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="TextInputStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+    </style>
+
+    <style name="TextLogoStyle" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:fontFamily">@font/pacifico</item>
+        <item name="android:textColor">@color/colorInputText</item>
+    </style>
+
+    <style name="TextHeaderStyle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextNameStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextLocationSubtitleStyle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+    </style>
+
+    <style name="UserNameCommentStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FeedCommentStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+    </style>
+
+    <style name="TextLogoActionBarStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/pacifico</item>
+        <item name="android:textColor">@color/colorInputText</item>
+    </style>
+    <style name="TextNumberStyle" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:fontFamily">@font/slate_fonts</item>
+        <item name="android:textColor">@color/colorInputText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextPacificoTitleStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/pacifico</item>
+        <item name="android:textColor">@color/colorInputText</item>
+    </style>
+</resources>
